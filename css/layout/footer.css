@@ -128,6 +128,8 @@ input::placeholder {
    fill: #FFF;
    padding: 8px 24px;
    margin: 0 auto;
+   border:none;
+   gap: 16px;
 
 }
 

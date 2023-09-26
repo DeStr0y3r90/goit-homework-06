@@ -20,9 +20,14 @@
 
 .container-portfolio-descr-item {
    margin-bottom: 48px;
-   border: 1px solid var(--CLOUD, #F4F4FD);
+   border: none;
    background: var(--WHITE, #FFF);
+}
+
+.container-portfolio-descr-item:hover, 
+.container-portfolio-descr-item:focus {
    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 
 .container-portfolio-descr-item:last-child {
